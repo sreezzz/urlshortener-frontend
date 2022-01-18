@@ -14,7 +14,7 @@ async function login() {
         if (res.status == 200) {
           alert("Login successful");
           window.location.href =
-            "https://zen-urlshortener.netlify.app/urlshortener.html";
+            "https://task-urlshortener.netlify.app/urlshortener.html";
           document.getElementById("loginForm").reset();
         } else if (res.status == 400 || res.status == 401) {
           alert("Invalid Credentials");
